@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+.page {
+    width: 100%;
+    min-height: 100vh;
+    background: pink;
+    display: grid;
+}
+
+.calculator-main {
+    width: 50%;
+    background: yellow;
+    height: 500px;
+    place-self: center; /* new */
+}
