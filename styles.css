@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 }
 
 .page {
@@ -11,8 +13,8 @@
 
 .calculator-main {
     width: 35%;
-    background: yellow;
-    height: 500px;
+    background: black;
+    height: 100%;
     place-self: center; /* new */
 
 }
@@ -20,16 +22,17 @@
 .outcome-nav {
     display: flex;
     width: 100%;
-    height: 20%;
+    height: 25%;
     background-color: black;
 }
 
 .calculator-grid-row1 {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
-    grid-gap: 0px;
+    grid-gap: 2px;
+    margin: 2px;
     padding: 0px;
-    width: 100%;
+    max-width: 100%;
     height: 20%;
     grid-template-areas: "clean back divide";
     
@@ -38,20 +41,37 @@
 .calculator-grid-row2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 0px;
+    grid-gap: 2px;
+    margin-right: 2px;
+    margin-left: 2px;
+    margin-bottom: 0px;
     padding: 0px;
-    width: 100%;
-    height: 20%;
+    max-width: 100%;
+    height: 40%;
     grid-template-areas: 
     "button7 button8 button9 button-multiply"
     "button6 button5 button4 button-minus"
     "button3 button2 button1 button-add"
 }
+
+.calculator-grid-row3 {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 2px;
+    margin: 2px;
+    padding: 0px;
+    max-width: 100%;
+    height: 13%;
+    grid-template-areas: "zero equal";
+    
+}
+
+
 /* 4 rows, 6 columns , up -> outcome -> whole-width */
 .C-button {
     background-color: rgb(217, 217, 217);
     border-color: black;
-    border-width: 2px;
+    border-width: 1px;
     color:black;
     font-size: 40px;
 }
@@ -59,47 +79,24 @@
 .back-button {
     background-color: rgb(217, 217, 217);
     border-color: black;
-    border-width: 2px;
+    border-width: 1px;
     color:black;
     font-size: 40px;
 }
 
-.divide-button {
+
+.button9, .button4, .button5, .button6, .button1, .button2, .button3,  .button8, .button7, .zero {
+    background-color: rgb(217, 217, 217);
+    border-color: black;
+    border-width: 1px;
+    color:black;
+    font-size: 40px;
+}
+
+.button-multiply,.button-minus, .button-add, .divide-button, .equal{
     background-color: rgb(235, 168, 11);
     border-color: black;
-    border-width: 2px;
-    color:black;
-    font-size: 40px;
-}
-
-.button7 {
-    background-color: rgb(217, 217, 217);
-    border-color: black;
-    border-width: 2px;
-    color:black;
-    font-size: 40px;
-}
-
-.button8 {
-    background-color: rgb(217, 217, 217);
-    border-color: black;
-    border-width: 2px;
-    color:black;
-    font-size: 40px;
-}
-
-.button9 {
-    background-color: rgb(217, 217, 217);
-    border-color: black;
-    border-width: 2px;
-    color:black;
-    font-size: 40px;
-}
-
-.button-multiply {
-    background-color: rgb(235, 168, 11);
-    border-color: black;
-    border-width: 2px;
+    border-width: 1px;
     color:black;
     font-size: 40px;
 }
