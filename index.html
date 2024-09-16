@@ -8,36 +8,37 @@
 </head>
 <body>
     <article class="page">
-        <div class="calculator-main">
-            <div class="outcome-nav">
-                <h1 class="p-to-copy">2</h1>
-            </div>
+        <form class="calculatormain">
+            <!--DISPLAY-->
+            <!--user input-->
+            <input class="outcome-nav" type="text" name="answer">
             <div class="calculator-grid-row1">
-                <button class="C-button">C</button>
+                <button class="C-button" data-action="clear">C</button>
                 <button class="back-button"><--</button>
-                <button class="divide-button">÷</button>
+                <button class="divide-button" data-action="divide">÷</button>
             </div>
+            <!--KEYS-->
             <div class="calculator-grid-row2">
-                <button class="button7">7</button>
-                <button class="button8">8</button>
-                <button class="button9">9</button>
-                <button class="button-multiply">×</button>
+                <button class="button">7</button>
+                <button class="button">8</button>
+                <button class="button">9</button>
+                <button class="button-multiply" data-action="multiply">×</button>
 
-                <button class="button4">4</button>
-                <button class="button5">5</button>
-                <button class="button6">6</button>
-                <button class="button-minus">-</button>
+                <button class="button">4</button>
+                <button class="button">5</button>
+                <button class="button">6</button>
+                <button class="button-minus" data-action="substract">-</button>
 
-                <button class="button3">3</button>
-                <button class="button2">2</button>
-                <button class="button1">1</button>
-                <button class="button-add">+</button>
+                <button class="button">3</button>
+                <button class="button">2</button>
+                <button class="button">1</button>
+                <button class="button-add" data-action="add">+</button>
             </div>
             <div class="calculator-grid-row3">
-                <button class="zero">0</button>
-                <button class="equal">=</button>
+                <button class="button">0</button>
+                <button class="equal" data-action="calculate">=</button>
             </div>
-        </div>
+        </form>
     </article>
 
     <script src="js/actions.js"></script>

@@ -11,7 +11,7 @@
     display: grid;
 }
 
-.calculator-main {
+.calculatormain {
     width: 35%;
     background: black;
     height: 100%;
@@ -57,9 +57,9 @@
     max-width: 100%;
     height: 40%;
     grid-template-areas: 
-    "button7 button8 button9 button-multiply"
-    "button6 button5 button4 button-minus"
-    "button3 button2 button1 button-add"
+    "button button button button-multiply"
+    "button button button button-minus"
+    "button button button button-add"
 }
 
 .calculator-grid-row3 {
@@ -70,7 +70,7 @@
     padding: 0px;
     max-width: 100%;
     height: 13%;
-    grid-template-areas: "zero equal";
+    grid-template-areas: "button equal";
     
 }
 
@@ -103,7 +103,8 @@
 .back-button:hover {
     background-color: darkgrey;
 }
-.button1 {
+
+.button {
     background-color: rgb(217, 217, 217);
     border-color: black;
     border-width: 1px;
@@ -112,48 +113,10 @@
     transition-duration: 0.4s;
     cursor: pointer;
 }
-.button1:hover{
+.button:hover{
     background-color: darkgrey;
 }
 
-.button9, .button4, .button5, .button6, .button2, .button3,  .button8, .button7, .zero {
-    background-color: rgb(217, 217, 217);
-    border-color: black;
-    border-width: 1px;
-    color:black;
-    font-size: 40px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-}
-.button2:hover{
-    background-color: darkgrey;
-}
-.button3:hover{
-    background-color: darkgrey;
-}
-
-.button4:hover{
-    background-color: darkgrey;
-}
-.button5:hover{
-    background-color: darkgrey;
-}
-
-.button6:hover{
-    background-color: darkgrey;
-}
-.button7:hover{
-    background-color: darkgrey;
-}
-.button8:hover{
-    background-color: darkgrey;
-}
-.button9:hover{
-    background-color: darkgrey;
-}
-.zero:hover{
-    background-color: darkgrey;
-}
 .button-multiply,.button-minus, .button-add, .divide-button, .equal{
     background-color: rgb(235, 168, 11);
     border-color: black;
