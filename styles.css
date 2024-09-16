@@ -74,6 +74,12 @@
     border-width: 1px;
     color:black;
     font-size: 40px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.C-button:hover {
+    background-color: darkgrey;
 }
 
 .back-button {
@@ -82,6 +88,12 @@
     border-width: 1px;
     color:black;
     font-size: 40px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.back-button:hover {
+    background-color: darkgrey;
 }
 
 
@@ -91,7 +103,11 @@
     border-width: 1px;
     color:black;
     font-size: 40px;
+    transition-duration: 0.4s;
+    cursor: pointer;
 }
+
+
 
 .button-multiply,.button-minus, .button-add, .divide-button, .equal{
     background-color: rgb(235, 168, 11);
