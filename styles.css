@@ -10,7 +10,7 @@
 }
 
 .calculator-main {
-    width: 50%;
+    width: 35%;
     background: yellow;
     height: 500px;
     place-self: center; /* new */
@@ -18,10 +18,20 @@
 }
 
 .outcome-nav {
-
+    display: flex;
+    width: 100%;
+    height: 20%;
+    background-color: black;
 }
 
-.calculator-grid {
-
+.calculator-grid-row1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-gap: 1px;
+    padding: 10px;
+    width: 100%;
+    height: 20%;
+    grid-template-areas: "clean back divide";
+    
 }
 /* 4 rows, 6 columns , up -> outcome -> whole-width */
