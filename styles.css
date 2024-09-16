@@ -32,6 +32,7 @@
     color:white;
     align-self: center;
     font-size: 50px;
+    font-weight: lighter;
 }
 .calculator-grid-row1 {
     display: grid;
