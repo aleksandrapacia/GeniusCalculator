@@ -27,11 +27,34 @@
 .calculator-grid-row1 {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
-    grid-gap: 1px;
-    padding: 10px;
+    grid-gap: 0px;
+    padding: 0px;
     width: 100%;
     height: 20%;
     grid-template-areas: "clean back divide";
     
 }
 /* 4 rows, 6 columns , up -> outcome -> whole-width */
+.C-button {
+    background-color: rgb(217, 217, 217);
+    border-color: black;
+    border-width: 2px;
+    color:black;
+    font-size: 40px;
+}
+
+.back-button {
+    background-color: rgb(217, 217, 217);
+    border-color: black;
+    border-width: 2px;
+    color:black;
+    font-size: 40px;
+}
+
+.divide-button {
+    background-color: rgb(217, 217, 217);
+    border-color: black;
+    border-width: 2px;
+    color:black;
+    font-size: 40px;
+}
