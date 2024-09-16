@@ -152,5 +152,22 @@
     border-width: 1px;
     color:black;
     font-size: 40px;
-}
+    transition-duration: 0.4s;
+    cursor: pointer;
 
+}
+.button-multiply:hover{
+    background-color: rgb(177, 126, 8);
+}
+.button-minus:hover{
+    background-color: rgb(177, 126, 8);
+}
+.button-add:hover{
+    background-color:rgb(177, 126, 8);
+}
+.divide-button:hover{
+    background-color:rgb(177, 126, 8);
+}
+.equal:hover{
+    background-color:rgb(177, 126, 8);
+}
