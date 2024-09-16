@@ -34,6 +34,19 @@
     grid-template-areas: "clean back divide";
     
 }
+
+.calculator-grid-row2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 20%;
+    grid-template-areas: 
+    "button7 button8 button9 button-multiply"
+    "button6 button5 button4 button-minus"
+    "button3 button2 button1 button-add"
+}
 /* 4 rows, 6 columns , up -> outcome -> whole-width */
 .C-button {
     background-color: rgb(217, 217, 217);
@@ -58,3 +71,36 @@
     color:black;
     font-size: 40px;
 }
+
+.button7 {
+    background-color: rgb(217, 217, 217);
+    border-color: black;
+    border-width: 2px;
+    color:black;
+    font-size: 40px;
+}
+
+.button8 {
+    background-color: rgb(217, 217, 217);
+    border-color: black;
+    border-width: 2px;
+    color:black;
+    font-size: 40px;
+}
+
+.button9 {
+    background-color: rgb(217, 217, 217);
+    border-color: black;
+    border-width: 2px;
+    color:black;
+    font-size: 40px;
+}
+
+.button-multiply {
+    background-color: rgb(217, 217, 217);
+    border-color: black;
+    border-width: 2px;
+    color:black;
+    font-size: 40px;
+}
+
