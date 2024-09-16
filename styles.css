@@ -14,4 +14,14 @@
     background: yellow;
     height: 500px;
     place-self: center; /* new */
+
 }
+
+.outcome-nav {
+
+}
+
+.calculator-grid {
+
+}
+/* 4 rows, 6 columns , up -> outcome -> whole-width */
