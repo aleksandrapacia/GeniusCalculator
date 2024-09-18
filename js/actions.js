@@ -1,19 +1,15 @@
-const inputValue = document.getElementById("outcome-nav");
+let chosen_animal = "dog"
+let message = " "
 
-const number = document.querySelectorAll(".numbers").forEach(function (item) {
-    item.addEventListener("click", function (e) {
-        if (inputValue.innerText === "NaN") {
-            inputValue.innerTexr = "";
-        }
-        if (inputValue.innerText === "0") {
-            inputValue.innerText = ""
-        }
-        inputValue.innerTexr += e.target.trim();
-    });
-});
+switch (chosen_animal) {
+    case "dog":
+        message = "Cats are better than dogs!";
+        break;
+    case "giraffe":
+        message = "Well... Giraffe lives in Africa";
+        break;
+    default:
+        message = "Give a proper name of the animal :)"
+}
 
-const calculate = document.querySelectorAll(".operations").forEach(function (item) {
-    item.addEventListener("click", function (e) {
-        console.log(e.target.innerHTML);
-    });
-});
+console.log(message)
